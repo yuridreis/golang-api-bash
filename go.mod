@@ -1,3 +1,3 @@
-module example/hello
+module example/main
 
 go 1.20

@@ -12,7 +12,7 @@ type Request struct {
 }
 
 func main() {
-	http.HandleFunc("/api/cmd", handler)
+	http.HandleFunc("/api", handler)
 	http.ListenAndServe(":4444", nil)
 }
 
